@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div {
+        border: 3px solid lightseagreen;
+        border-radius: 10px;
+      }
+      div.stickey {
+        position: sticky;
+        top: 45px;
+        left: 30px;
+        width: 250px;
+        background-color: lightblue;
+        border: 3px dashed lightskyblue;
+        margin: 10px;
+      }
+      div.fixed {
+        position: fixed;
+        top: 10px;
+        right: 15px;
+        width: 250px;
+        background-color: lightcyan;
+        border: 3px solid darkcyan;
+      }
+      div.relative {
+        position: relative;
+        left: 100px;
+        border: 3px solid darkblue;
+        width: 350px;
+      }
+      div.absolute {
+        position: absolute;
+        left: 100px;
+        border: 3px solid darkred;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Positioning</h2>
+    <div>DIV with no position property.</div>
+    <div class="stickey">DIV with sticky position property.</div>
+    <div class="relative">
+      DIV with relative position property.
+      <div class="absolute">absolute class DIV</div>
+    </div>
+    <div class="fixed">DIV with fixed position property.</div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>
